@@ -33,7 +33,6 @@ namespace Tyuiu.TretyakovDV.Sprint3.Task0.V16
             Console.WriteLine("Введите значение k2");
             int stopValue = Convert.ToInt32(Console.ReadLine());
             double multi = ds.GetMultiplySeries(value, startValue, stopValue);
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("***************************************************************************");
