@@ -30,6 +30,7 @@ namespace Tyuiu.TretyakovDV.Sprint3.Task3.V9
             Console.WriteLine("Введите букву");
             char item = Convert.ToChar(Console.ReadLine());
             value = ds.ReplaceNumOnChar(value, item);
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("***************************************************************************");
