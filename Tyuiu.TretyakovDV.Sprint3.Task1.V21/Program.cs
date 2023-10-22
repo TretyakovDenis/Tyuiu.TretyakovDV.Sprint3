@@ -36,6 +36,7 @@ namespace Tyuiu.TretyakovDV.Sprint3.Task1.V21
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*РЕЗУЛЬТАТ:                                                               *");
             Console.WriteLine("***************************************************************************");
+
             Console.WriteLine(multi);
             Console.ReadKey();
 
