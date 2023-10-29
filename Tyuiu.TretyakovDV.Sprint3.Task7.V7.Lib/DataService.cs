@@ -19,17 +19,20 @@ namespace Tyuiu.TretyakovDV.Sprint3.Task7.V7.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
-                {
-                    valueArray[count] = 0;
-                    count++;
-                }
-                else
-                {
+                
+                
                     y = Math.Round((Math.Cos(x) + (Math.Cos(x) / (x + 2)) - 3 * x), 2);
-                    valueArray[count] = y;
-                    count++;
-                }
+                    if (x + 2 == 0)
+                    {
+                        valueArray[count] = 0;
+                        count++;
+                    }
+                    else
+                    {
+                        valueArray[count] = y;
+                        count++;
+                    }
+                
             }
             return valueArray;
         }

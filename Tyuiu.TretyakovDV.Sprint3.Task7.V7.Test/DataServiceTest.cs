@@ -20,9 +20,9 @@ namespace Tyuiu.TretyakovDV.Sprint3.Task7.V77.Test
             valueWaitArray[0] = 15.19;
             valueWaitArray[1] = 11.67;
             valueWaitArray[2] = 9.00;
-            valueWaitArray[3] = 1;
+            valueWaitArray[3] = 0;
             valueWaitArray[4] = 4.08;
-            valueWaitArray[5] = 0.00;
+            valueWaitArray[5] = 1.50;
             valueWaitArray[6] = -2.28;
             valueWaitArray[7] = -6.52;
             valueWaitArray[8] = -10.19;
